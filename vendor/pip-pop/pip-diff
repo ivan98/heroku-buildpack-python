@@ -12,9 +12,7 @@ Options:
 """
 import os
 from docopt import docopt
-from pip.req import parse_requirements
-from pip.index import PackageFinder
-from pip._vendor.requests import session
+
 
 requests = session()
 
